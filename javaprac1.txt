@@ -1,0 +1,107 @@
+public class Math
+{
+
+  public static void main (String[]args)
+  {
+      int a=29;
+      int b=3;
+      System.out.print ("The numbers used for operation are :" +a);
+      System.out.println(",\t"+b);
+      int sum=a+b;
+      System.out.println ("The sum of both the number is : "+sum);
+      int difference=a-b;
+      System.out.println ("The difference of both the number is : "+difference);
+      int product=a*b;
+     System.out.println ("The multiplication of both the number is : "+product);
+     float division=(float)a/b;
+     System.out.println ("The division of both the number is : "+division);
+  }
+}
+
+public class Code2{
+
+ 
+    public static void main(String []args){
+ 
+        String dna="ATACGATACAA";
+     
+   System.out.println(dna);
+    
+ }
+
+}
+public class Code3{
+
+     public static void main(String []args){
+         String aa[]={"G","P", "A", "L","Q"};
+         int Mwt[]={54,55,56,57,59};
+        for(int i=0; i<=4; i++)
+        {
+        System.out.print("Amino acid is"+aa[i]);
+        System.out.println("\tand its molecular weight is:"+Mwt[i]);
+        }
+}
+}
+
+public class ques7{
+
+     public static void main(String []args){
+         double arr[]={25,277,37,12,1444,155,177, 155, 19,10};
+            int sum=0;
+            {
+            for(int i=0; i<=9; i++)
+             {
+                sum+=arr[i] ;
+             }
+            }
+            int avg=sum/10;
+        System.out.println("the average is:"+sum);
+     }
+}
+
+
+public class Ques4{
+
+     public static void main(String []args){
+         String dna1="ATGCGCATTAGC";
+         String dna2="TATAGCGGGAAC";
+         String con= dna1+dna2;
+        System.out.println(con);
+     }
+}
+
+
+public class Ques5{
+
+     public static void main(String []args){
+         String sub[]={"English","Maths","Science","Computer","General knowledge"};
+         int marks[]={83,75,78,88,90};
+         int sum=0;
+         for(int i=0;i<=4;i++)
+         {
+             System.out.print(sub[i]);
+            System.out.println(marks[i]);
+             sum=sum+marks[i];
+         }
+         int avg= sum/5;
+         int percentage= avg*100;
+         System.out.print("The percentage is:"+percentage);
+         if(percentage>50)
+        System.out.println("pass");
+     }
+}
+
+
+
+import java.util.Arrays;
+import java.util.Collections;
+ 
+public class SortExample
+{
+    public static void main(String[] args)
+    {
+        String arr[] = {"glycine", "leucine","aspartate","glutamate", "glutamine", "arginine","phenylalanine"};
+        Arrays.sort(arr);
+        System.out.print("Modified arr[] :"+ Arrays.toString(arr));
+    }
+}
