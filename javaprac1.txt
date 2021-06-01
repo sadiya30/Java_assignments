@@ -18,6 +18,8 @@ public class Math
   }
 }
 
+
+
 public class Code2{
 
  
@@ -28,8 +30,11 @@ public class Code2{
    System.out.println(dna);
     
  }
-
 }
+
+
+
+
 public class Code3{
 
      public static void main(String []args){
@@ -42,6 +47,8 @@ public class Code3{
         }
 }
 }
+
+
 
 public class ques7{
 
@@ -58,6 +65,8 @@ public class ques7{
         System.out.println("the average is:"+sum);
      }
 }
+
+
 
 
 public class Ques4{
@@ -91,6 +100,24 @@ public class Ques5{
      }
 }
 
+
+
+public class Fibbonacci
+{
+	public static void main(String[] args) {
+    int start=0;
+    int previous=1;
+    int follow=0;
+    for(follow=0; follow<=50; follow++)
+    {
+        follow=start+previous;
+        previous=start ;
+       start=follow;
+        System.out.print(follow);
+    }
+
+	}
+}
 
 
 import java.util.Arrays;
