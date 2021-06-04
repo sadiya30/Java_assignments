@@ -20,19 +20,6 @@ public class Math
 
 
 
-public class Code2{
-
- 
-    public static void main(String []args){
- 
-        String dna="ATACGATACAA";
-     
-   System.out.println(dna);
-    
- }
-}
-
-
 
 
 public class Code3{
