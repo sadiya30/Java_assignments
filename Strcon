@@ -1,0 +1,9 @@
+public class Concatenation{
+
+     public static void main(String []args){
+         String dna1="ATGCGCATTAGC";
+         String dna2="TATAGCGGGAAC";
+         String con= dna1+dna2;
+        System.out.println(con);
+     }
+}
