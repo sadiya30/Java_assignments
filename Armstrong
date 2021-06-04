@@ -1,0 +1,20 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int no=371;
+	    int a=no;
+	    int sum=0; 
+	    do{
+	    int b=a%10;
+	   int c=a/10;
+	    sum=sum+ b*b*b;
+	    a=c;
+	   // System.out.println(no);
+	    System.out.println(sum);
+	   }while(a!=0);
+	     if(sum==no)
+		System.out.println(no+"\tis an armstrong number");
+		else
+		System.out.println(no+" is not an armstrong number");
+	}
+}
