@@ -1,0 +1,12 @@
+public class Mwt{
+
+     public static void main(String []args){
+         String aa[]={"G","P", "A", "L","Q"};
+         int Mwt[]={54,55,56,57,59};
+        for(int i=0; i<=4; i++)
+        {
+        System.out.print("Amino acid is"+aa[i]);
+        System.out.println("\tand its molecular weight is:"+Mwt[i]);
+        }
+}
+}
