@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main{
+    
+    public static void main(String[]args){
+        
+        Scanner dna1= new Scanner(System.in);
+        System.out.print("Enter first sequence\t");
+        String seq1= dna1.nextLine();
+        System.out.println("First sequence is:"+seq1);
+        Scanner dna2= new Scanner(System.in);
+          System.out.print("Enter other sequence\t");
+          String seq2= dna2.nextLine();
+          System.out.println("Second sequence is:"+seq2);
+          int l1=seq1.length();
+          int l2=seq2.length();
+           System.out.println("Length of first sequence is:\t"+l1);
+            System.out.println("Length of second sequence is:\t"+l2);
+            System.out.println(seq2.compareTo(seq1));
+    }
+}
