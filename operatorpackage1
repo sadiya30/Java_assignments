@@ -1,0 +1,23 @@
+package maths;
+import java.util.Scanner;
+class operation {
+	public static void main(String[]args){
+	System.out.println("enter a number");
+	Scanner s =new Scanner(System.in);
+	int a= s.nextInt();
+	System.out.println("enter another number");
+	Scanner d=new Scanner(System.in);
+	int b= d.nextInt();
+    System.out.print ("The numbers used for operation are :" +a);
+    System.out.println(",\t"+b);
+    int sum=a+b;
+    System.out.println ("The sum of both the number is : "+sum);
+    int difference=a-b;
+    System.out.println ("The difference of both the number is : "+difference);
+    int product=a*b;
+   System.out.println ("The multiplication of both the number is : "+product);
+   float division=(float)a/b;
+   System.out.println ("The division of both the number is : "+division);
+
+}
+}
