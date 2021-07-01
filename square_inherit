@@ -1,0 +1,16 @@
+public class square {
+int side =4;
+int len=2;
+void obs(){
+	int area= 4*len;
+	System.out.println("The parameter is "+area);
+}
+}
+class cube extends square{
+	public static void main(String[] args){
+		cube c=new cube();
+		c.side= 6;
+		c.len=5;
+		c.obs();
+	}
+}
