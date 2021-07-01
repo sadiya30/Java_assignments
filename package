@@ -1,0 +1,26 @@
+package translation;
+
+public class aminoacid {
+	String conversion(String aa){
+		if(aa.equals("M"))
+		{
+			System.out.println("The three letter code for methionine is: AUG");
+			}
+		else if(aa.equals("R"))
+			{
+			System.out.println("The three letter code for arginine is: AGA\nAGG\nCGA\nCGC\nCGG\nCGT");
+			}
+			else if(aa.equals(""))
+				{
+				System.out.println("The three letter code for stop codon is: UAG");	
+			}
+		return aa;
+	}
+
+}
+ class test{
+	public static void main(String[]args){
+		aminoacid a= new aminoacid();
+		a.conversion("M");
+	}
+}
