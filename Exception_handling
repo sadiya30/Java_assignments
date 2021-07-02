@@ -1,0 +1,14 @@
+import java.lang.*;
+class handling {
+	public static void main(String[]args){
+		try{
+			int a=10/0;
+		}
+		catch(ArithmeticException e){
+			System.out.print(e);
+			
+			
+		}
+	}
+
+}
