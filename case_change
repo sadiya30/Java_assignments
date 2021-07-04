@@ -1,0 +1,24 @@
+package exception;
+import java.util.Scanner;
+public class test {
+	static void casechange(String str)
+    {
+        int ln = str.length();
+        for (int i = 0; i < ln; i++) {
+           char c = str.charAt(i);
+            if (Character.isLowerCase(c))
+             System.out.print(Character.toUpperCase(c));
+            else
+            System.out.print(Character.toLowerCase(c));
+        }
+    }
+ 
+    public static void main(String[] args)
+    {
+    	 System.out.println("Enter a sentence");
+    	Scanner sen= new Scanner(System.in);
+        String str= sen.nextLine();
+    casechange(str);
+    }
+}
+
